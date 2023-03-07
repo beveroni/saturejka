@@ -1,11 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext');
 
 html {
+  box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+  background-color: #FFEFEF;
+}
+
+body {
+  background-color: #ffffff;
+  width: 70%;
+  margin: auto;
+}
+
+header {
+  background-color: #FFEFEF;
+  padding: 50px 5px;
 }
 
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+}
+
+.maleobrazky {
+  width: 28%;
+  margin: 1%
+}
+
+footer {
+  background-color: #FFEFEF;
+  margin: auto;
+  padding: 2%;
 }
